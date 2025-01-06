@@ -38,3 +38,8 @@ const data1: string[] = ["thor", "spidey", "ironman"]
 
 const data2: (string | number)[] = ["hero", "villan", 1, 2, 3] // Allows mix of numbers and strings in same array
 const data3: string[] | number[] = ["hero", "villan"] // Allows all values either string only or all values number only
+
+let seatAllocated: "Aisle" | "Middle" | "Window"
+
+// seatAllocated = "crew" // invalid assignment
+// seatAllocated = "Aisle" // valid assignment
