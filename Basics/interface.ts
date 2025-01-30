@@ -23,7 +23,7 @@ const userDetails: Admin = {
     githubToken: "github",
     role: "Admin",
     startTrial: () => {return "hello"},
-    getCoupon: (name, off) => {return `${name} discount is ${off}`}
+    getCoupon: (name = "", off) => {return `${name} discount is ${off}`}
 }
 
 console.log(userDetails.startTrial());

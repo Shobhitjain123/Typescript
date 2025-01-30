@@ -1,4 +1,4 @@
-enum seatAlloted {
+const enum seatAlloted {
     AISLE = "aisle",
     MIDDLE = "middle",
     WINDOW = "window"
